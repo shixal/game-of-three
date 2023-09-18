@@ -1,0 +1,26 @@
+{
+  "name": "game-of-three",
+  "version": "1.0.0",
+  "description": "Game of Three - Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shixal/game-of-three.git"
+  },
+  "author": "pascal koeltzow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shixal/game-of-three/issues"
+  },
+  "homepage": "https://github.com/shixal/game-of-three#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "live-server": "^1.2.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+  }
+}
