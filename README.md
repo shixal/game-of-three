@@ -47,7 +47,18 @@ The game uses the following technologies:
 
 ### Backend: 
 Node.js with the Express.js framework.
+
 ### WebSockets: 
 For real-time bidirectional communication between the server and clients.
 ### Frontend:
 Vanilla JavaScript.
+
+
+
+## Game Screenshots
+###  Player 1
+<img alt="player1" src="https://img.onl/kIv09p">
+
+
+###  Player 2
+<img alt="player2" src="https://img.onl/4oSrZO">
