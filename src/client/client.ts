@@ -3,7 +3,6 @@ import { io } from 'socket.io-client';
 const socket = io('http://localhost:3000');
 const gameLog: HTMLElement | null = document.getElementById('gameLog');
 const playTurnButton = document.getElementById('playTurn') as HTMLButtonElement | null;
-const DIVISOR = 3;
 
 // If there's a playTurnButton, attach an event listener.
 playTurnButton?.addEventListener('click', handlePlayTurn);
