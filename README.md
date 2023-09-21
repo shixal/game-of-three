@@ -6,16 +6,22 @@ Ensure you have the following installed:
 
 Node.js
 npm (Node Package Manager)
-live-server (For serving client files. Install globally with npm install -g live-server)
+http-server (For serving client files. Install globally with npm install -g http-server)
 
 Install dependencies:
 npm install
 
+Compile Typescript files:
+npm run compile
+
+Build client files:
+npm run build
+
 Run the server:
-node server.js
+npm run start
 
 Serve client files:
-live-server
+http-server
 
 Open a web browser and navigate to http://127.0.0.1:8080. 
 Start a game by connecting with two different browser windows or tabs.
