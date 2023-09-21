@@ -13,19 +13,19 @@ npm (Node Package Manager)
 http-server (For serving client files. Install globally with npm install -g http-server)
 
 ### Install dependencies:
-- npm install
+- npm install  
 
 Compile Typescript files:
-npm run compile
+- npm run compile
 
 Build client files:
-npm run build
+- npm run build
 
 Run the server:
-npm run start
+- npm run start
 
 Serve client files:
-http-server
+- http-server
 
 Open a web browser and navigate to http://127.0.0.1:8080.  
 Start a game by connecting with two different browser windows or tabs.
