@@ -8,18 +8,24 @@ The goal is to reach the number 1.
 ## Prerequisites
 Ensure you have the following installed:
 
-- Node.js
-- npm (Node Package Manager)
-- live-server (For serving client files. Install globally with npm install -g live-server)
+Node.js
+npm (Node Package Manager)
+http-server (For serving client files. Install globally with npm install -g http-server)
 
 ### Install dependencies:
 - npm install
 
-### Run the server:
-- node server.js
+Compile Typescript files:
+npm run compile
 
-### Serve client files:
-- live-server
+Build client files:
+npm run build
+
+Run the server:
+npm run start
+
+Serve client files:
+http-server
 
 Open a web browser and navigate to http://127.0.0.1:8080.  
 Start a game by connecting with two different browser windows or tabs.
